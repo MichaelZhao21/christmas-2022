@@ -1,0 +1,51 @@
+html, body {
+    background-color: #1b1d21;
+    cursor: pointer;
+}
+
+h1, body, html, p {
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.page {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#title-text {
+    font-size: 5vw;
+}
+
+.subtitle {
+    font-size: 3vw;
+}
+
+.hidden {
+    scale: 0.01;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.gone {
+    display: none;
+}
+
+img {
+    width: 20%;
+    position: absolute;
+    z-index: 100;
+    opacity: 0;
+}
